@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar-brand {
+    font-size: 2rem;
+    color: black;
+}
+
+.nav-link {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+.search {
+    height: 40px;
+    border-radius: 60px;
+    border: 2px solid rgb(248 , 26 , 92); 
+    margin-right: -35px;
+    text-align: center;  
+}
+
+.btn0 {
+    border: none;
+    width: 75px;
+    background-color: rgb(248 , 26 , 92);
+    color: white;
+    border-radius: 60px;
+}
+
+.main {
+    background-image: url("https://i.pinimg.com/originals/60/73/81/607381baf55ebb23167b6564f9c278dd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;   
+    min-height: 700px;
+}
+
+.main h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: black;
+}
+
+.product h1{
+    font-weight: 700;
+}
+
+.card:hover{
+    box-shadow: -1px 1px 5px 6px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 1px 5px 6px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 1px 5px 6px rgba(0,0,0,0.75);
+    transition: 0.5s;
+}
