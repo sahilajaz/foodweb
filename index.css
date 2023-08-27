@@ -57,3 +57,47 @@
 -moz-box-shadow: -1px 1px 5px 6px rgba(0,0,0,0.75);
     transition: 0.5s;
 }
+
+
+.apple {
+    background: url("https://storage.googleapis.com/boom-ai-images/results/1Bl3wLli5ZcyzAq7Jls5/00006.jpg") no-repeat;
+    background-size: cover;
+    min-height: 180vh;
+}
+
+
+.final-portion {
+    background-color: black;
+}
+
+.btn3{
+    height: 52px;
+    width: 80px;
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    margin-left: -9px;
+    font-weight: 600;
+}
+
+
+.final-portion  .input {
+    height: 50px;
+    width: 55%;
+    border: 2px solid white;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+
+}
+
+
+.column-container{
+    margin-top: 80px;
+}
+
+.portion .item{
+    margin-left: 70px;
+    color: white;
+}
